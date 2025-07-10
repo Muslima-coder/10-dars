@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body{
+    background-image: linear-gradient(black, purple);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.containers{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
