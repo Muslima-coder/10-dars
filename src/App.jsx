@@ -68,10 +68,8 @@ function handleSortStopBtn() {
                 </label>
                 {/* Sort and Sort stop button */}
                 <div className="flex items-center gap-[5px]">
-               <div className="flex flex-col gap-2">
-                 <button onClick={handleSortBtn} className=" w-[150px] py-3 cursor-pointer text-[15px] font-medium bg-blue-800 rounded-md text-white ">Sort by salary</button>
-                <button onClick={handleSortBtn2} className=" w-[150px] py-3 cursor-pointer text-[15px] font-medium bg-blue-800 rounded-md text-white ">Sort by firstname</button>
-               </div>
+                 <button onClick={handleSortBtn} className=" w-[150px] py-3 cursor-pointer text-[15px] font-medium bg-pink-400 rounded-md text-white ">Sort by salary</button>
+                <button onClick={handleSortBtn2} className=" w-[150px] py-3 cursor-pointer text-[15px] font-medium bg-orange-300 rounded-md text-white ">Sort by firstname</button>
                 <button onClick={handleSortStopBtn} className=" w-[30px]  cursor-pointer text-[18px] font-medium bg-red-700 rounded-md text-white ">x</button>
                 </div>
                 {/* <button onClick={handleAddStudentsBtn} className=" w-[30px]  cursor-pointer text-[18px] font-medium bg-green-600 rounded-md text-white ">+</button> */}
